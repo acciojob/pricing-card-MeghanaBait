@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+	box-sizing:border-box
+}
+
+#card{
+	margin: 10%;
+	width:70%;
+	padding:8%;
+	background-color:white;
+	box-shadow:0px 0px 15px #aaaaaa;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+#card >img{
+	width:100%;
+}
+
+#card > h1{
+	font-size:58px;
+}
+
+#card > p{
+	font-size:32px;
+	text-align: center;
+	
+}
+#card > button{
+	border-radius:20px;
+	border: 2px solid tomato;
+    background: tomato;
+	width:150px;
+	height:80px;
+	color:white;
+	font-size:30px;
+	margin-top:20px;
+}
